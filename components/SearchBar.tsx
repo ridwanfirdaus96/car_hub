@@ -5,7 +5,7 @@ import { SearchManufacturer } from "./";
 import Image from "next/image";
 
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
-  <button type="submit" className={`-ml-3 z-10 {otherClasses}`}>
+  <button type="submit" className={`-ml-3 z-10 ${otherClasses}`}>
     <Image
       src="/magnifying-glass.svg"
       alt="magnifying glass"
@@ -33,7 +33,7 @@ const SearchBar = ({ setManufacturer, setModel }) => {
 
   return (
     <form className="searchbar" onSubmit={handleSearch}>
-      <div className="searchbar__items">
+      <div className="searchbar__item">
         <SearchManufacturer
           selected={searchManufacturer}
           setSelected={setSearchManufacturer}
