@@ -17,7 +17,7 @@ const Hero = () => {
           Sederhanakan pengalaman sewa mobil Anda dengan proses pemesanan kami yang mudah.
         </p>
         <CustomButton
-          title="Explore Cars"
+          title="Jelajahi Mobil"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
         />
