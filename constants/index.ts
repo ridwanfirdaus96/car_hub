@@ -72,25 +72,25 @@ export const manufacturers = [
   
   export const footerLinks = [
     {
-      title: "About",
+      title: "Tentang",
       links: [
-        { title: "How it works", url: "/" },
-        { title: "Featured", url: "/" },
-        { title: "Partnership", url: "/" },
-        { title: "Bussiness Relation", url: "/" },
+        { title: "Bagaimana ini bekerja", url: "/" },
+        { title: "Fitur", url: "/" },
+        { title: "Kemitraan", url: "/" },
+        { title: "Hubungan Bisnis", url: "/" },
       ],
     },
     {
-      title: "Company",
+      title: "Perusahaan",
       links: [
         { title: "Events", url: "/" },
         { title: "Blog", url: "/" },
         { title: "Podcast", url: "/" },
-        { title: "Invite a friend", url: "/" },
+        { title: "Undang Temanmu", url: "/" },
       ],
     },
     {
-      title: "Socials",
+      title: "Sosial",
       links: [
         { title: "Discord", url: "/" },
         { title: "Instagram", url: "/" },
