@@ -56,16 +56,16 @@ export const manufacturers = [
   ];
   
   export const fuels = [
-    {
-      title: "Fuel",
-      value: "Fuel",
-    },
     // {
-    //   title: "Gas",
-    //   value: "Gas",
+    //   title: "Fuel",
+    //   value: "",
     // },
     {
-      title: "Electricity",
+      title: "Bensin",
+      value: "Gas",
+    },
+    {
+      title: "Listrik",
       value: "Electricity",
     },
   ];
