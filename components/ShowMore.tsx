@@ -15,7 +15,7 @@ const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
     <div className="w-full flex-center gap-5 mt-10">
       {!isNext && (
         <CustomButton
-          title="Show More"
+          title="Tampilkan Lebih Banyak"
           btnType="button"
           containerStyles="bg-primary-blue rounded-full text-white"
           handleClick={handleNavigation}
